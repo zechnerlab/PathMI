@@ -1,6 +1,6 @@
 # PathMI
 Julia code for calculating mutual information between complete trajectories of molecular components.
-Contact: Lorenzo Duso (duso@mpi-cbg.de) & Christoph Zechner (zechner@mpi-cbg.de)
+For further information, contact Lorenzo Duso (duso@mpi-cbg.de) & Christoph Zechner (zechner@mpi-cbg.de)
 
 
 # INTRODUCTION
