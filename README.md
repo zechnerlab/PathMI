@@ -57,7 +57,7 @@ include("launch_ver1.jl")
 launch.figure1b()
 ```
 
-If it is desired to get precisely the identical figures as reported in the paper, it is possible to pass the argument paper=true , for example launch.figure1b(paper=true) . This command sets the seed of the random number generator to the same value used when making the figures.
+If it is desired to get precisely the identical figures as reported in the paper, it is possible to pass the argument ``` paper=true ```, for example ```launch.figure1b(paper=true)``` . This command sets the seed of the random number generator to the same value used when making the figures.
 
 # ADVANCED USAGE
 
