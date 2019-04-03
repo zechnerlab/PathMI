@@ -22,18 +22,24 @@ Adding the package PyPlot.
 In case you have just installed julia or you do not have the package PyPlot installed, please follow these intstructions:
 
 - for version v0.6, open the julia terminal and paste
+```
 Pkg.add("PyPlot")
 using PyPlot
+```
 
 - for version v1., open the julia terminal and paste
+```
 import Pkg
 Pkg.add("PyPlot")
 using PyPlot
+```
  
 Note: on macOS, in case the plotting of some outputs in launch.jl fails or is too slow, it may be helpful to run the following commands and include again the launch.jl module:
+```
 using Conda
 Conda.add("pyqt")
 using PyPlot
+```
 
 
 # USAGE
@@ -43,16 +49,22 @@ The launch.jl modules simply interface with the module PathMI.jl, where the actu
 Example of usage. Reproducing figure 1b in julia version v1. :  
 1) open the julia terminal and access the folder where PathMI.jl and launch_ver1.jl are located
 2) load the module launch_ver1.jl by running
+```
 include("launch_ver1.jl")
+```
 3) run the function to reproduce figure 1b
+```
 launch.figure1b()
+```
 
 If it is desired to get precisely the identical figures as reported in the paper, it is possible to pass the argument paper=true , for example launch.figure1b(paper=true) . This command sets the seed of the random number generator to the same value used when making the figures.
 
 # ADVANCED USAGE
 
 It is also possible to directly use the module PathMI.jl by running in the julia terminal :
+```
 include("PathMI.jl")
+```
 This allows you to manually perform simulations and change system settings such as the reaction network, the rate constants, the initial condition and the simulation time. Further clarifications can be found by reading the commented code and usage examples in PathMI.jl or by contacting the authors at duso@mpi-cbg.de or zechner@mpi-cbg.de . 
 
 
