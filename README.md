@@ -5,7 +5,7 @@ For further information, contact Lorenzo Duso (duso@mpi-cbg.de) & Christoph Zech
 
 # INTRODUCTION
 
-All the numerical simulations in "Path mutual information for a class of biochemical reaction networks" have been performed with the programming language julia ( http://julialang.org/ ). Here we want to share our code for reproducibility reasons. The provided code is customized to reproduce the case studies shown in the paper and is not meant to be a general tool.
+All the numerical simulations in "Path mutual information for a class of biochemical reaction networks" ( http://arxiv.org/abs/1904.01988 ) have been performed with the programming language julia ( http://julialang.org/ ). Here we want to share our code for reproducibility reasons. The provided code is customized to reproduce the case studies shown in the paper and is not meant to be a general tool.
 
 Here we give instructions on how to reproduce the plots of the paper by using the module PathMI.jl and the prepared routines in the associated launch.jl modules. Please note that the launch.jl modules need PathMI.jl to be saved in the same folder.
 
