@@ -49,9 +49,9 @@ If desired, the default initial condition x(0)=(A(0),B(0)) for the two chemical 
 S.x0[1] = 100  # sets A(0)=100
 S.x0[2] = 25   # sets B(0)=25
 ```
-If desired, the reaction rate constants can be modyfied by acting on the entries of `S.C` . Note that, independently on the case study, the network initialized in `S` reflects the following indexing
+If desired, the reaction rate constants can be modified by acting on the entries of `S.C` . Note that, independently of the case study, the network initialized in `S` reflects the following indexing
 ```
-1:     0 - >A
+1:    0 -> A
 2:    A -> 2A
 3:    A -> 0
 4:  A+B -> B
